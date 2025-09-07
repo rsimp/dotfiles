@@ -5,6 +5,7 @@ if [ ! -e "~/Library/Application\ Support/iTerm2/DynamicProfiles/Iterm2Profile.j
     mkdir -p "~/Library/Application\ Support/iTerm2/DynamicProfiles"
   fi
   if [ ! -e "~/Library/Application\ Support/iTerm2/DynamicProfiles/Iterm2Profile.json" ]; then
+    echo "$(~/bin/chezmoi source-path)/Iterm2Profile.json"
     cp "$(~/bin/chezmoi source-path)/Iterm2Profile.json" "~/Library/Application\ Support/iTerm2/DynamicProfiles/"
   fi
 fi
