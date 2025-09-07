@@ -4,6 +4,7 @@
 if test ! $(which brew); then
 	echo "Installing homebrew..."
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # Install deps from bundlefile
