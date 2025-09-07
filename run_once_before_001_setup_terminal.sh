@@ -7,6 +7,6 @@ if [ ! -e "~/Library/Application\ Support/iTerm2/DynamicProfiles/Iterm2Profile.j
   if [ ! -e "~/Library/Application\ Support/iTerm2/DynamicProfiles/Iterm2Profile.json" ]; then
     cd ./.local/share/chezmoi
     ls -al
-    cp "~/.local/share/chezmoi/Iterm2Profile.json" "~/Library/Application\ Support/iTerm2/DynamicProfiles/"
+    cp Iterm2Profile.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/
   fi
 fi
