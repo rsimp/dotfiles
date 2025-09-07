@@ -14,4 +14,5 @@ cask "visual-studio-code"
 cask "orbstack"
 cask "obsidian"
 cask "iterm2"
+cask "font-meslo-for-powerlevel10k"
 EOF

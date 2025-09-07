@@ -1,6 +1,0 @@
-brew "gh"
-brew "fnm"
-cask "visual-studio-code"
-cask "orbstack"
-cask "obsidian"
-cask "iterm2"
